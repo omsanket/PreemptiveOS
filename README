@@ -1,0 +1,80 @@
+README
+	
+Final Project -70 Marks Project
+	
+Team Members
+ 
+1)Sanket Sharma (ID-109953243)
+2)Amit Nautiyal(ID-109915508)
+
+
+Things Done:
+
+1) Preemptive OS 
+2) Memory Management - Four Level Paging done  
+3) Process management-Context Switching implemented
+4) Fork()
+6) Yield()
+7) Execve() 
+8) SEGV Handling
+9) Tarfs functions implemented
+	1)Open
+	2)Read
+	3)Close
+	4)Opendir
+	5)Readdir
+	6)Closedir
+
+10) stdin,stdout
+11) Required System calls and their wrappers implemented
+	
+12)Binaries implemented
+	1)ls
+	2)ps
+	3)echo 
+	4)kill -9 pid
+	
+13) Shell implemented
+	1)Supports execution of  cd command.
+	2)Supports execution of binaries interactively.
+	3)Supports execution of scripts with ".sh" extension.
+	4)Set and use PATH and PS1 variables.
+	
+	6)Implemented all functions from include/stdlib.h .
+	7)Implemented system calls using x86-64 Calling Conventions.
+	8)Implemented all functions required for string manipulation .
+	9)Implemented printf and scanf with basic support for %d,%s,%x,%c.
+	10)Implemented case sensitive "exit(0)" command to come out of shell.
+	11)malloc.c file contains malloc and free functions.
+	12)dir.c file contains opendir,readdir,and  closedir functions.
+
+Environment Set:
+	Variables Set:
+	1)Path set: "HOME=rootfs/bin/"
+	2)Home: "PATH=/rootfs:bin:/usr/games:/usr/local/games"
+	
+
+Functionaliies in Respective Files:
+
+1)Paging has been implemented in sys/paging.c
+2)Memory management has been done in sys/memory.c
+3)Tarfs functions have been implemented in sys/tarfs.c
+4)Process functions have been implemented in sys/process.c and sys/thread.c
+5)User syscall functions have been implemented in libc/
+6)All header files are in include/ and include/sys
+7)Scheduler has been implemented in sys/thread.c
+
+
+
+References:
+1) OS DEV.
+2) LINUX 1.0 Source code.
+3) Understanding the LINUX Kernel.
+4) James Molly http://www.jamesmolloy.co.uk/
+5) AMD X86 Manual.
+	
+
+
+	
+	
+	
